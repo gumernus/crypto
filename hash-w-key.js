@@ -20,7 +20,7 @@ function start() {
   rl.question("New Text: ", (text) => {
     string = text;
     rl.question("New Key: ", (text) => {
-      key = text; //d5db740ea091c09f642e02bfae9e578dL
+      key = text; 
       process.stdout.write("\u001b[H\u001b[2J\u001b[3J");
       encrypt(string, key, algorithm);
     });
