@@ -1,3 +1,5 @@
+//POZOR! npm install readline
+
 const { Console } = require("console");
 const crypto = require("crypto");
 const readline = require("readline");
